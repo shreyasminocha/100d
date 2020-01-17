@@ -3,12 +3,17 @@ import {createUseStyles} from 'react-jss';
 
 const useStyles = createUseStyles({
     gradient: {
-        '&::-webkit-slider-runnable-track, &::-moz-range-track ': {
+        '&::-webkit-slider-runnable-track, &::-moz-range-track': {
             background: (props) => {
                 return `linear-gradient(90deg, ${props.minColor}, ${props.maxColor})`;
             }
         }
-    }
+    },
+
+    labels: (props) => ({
+        '&::before': { content: `'${props.minLabel}'` },
+        '&::after': { content: `'${props.maxLabel}'` }
+    })
 });
 
 const Slider = (props) => {
@@ -18,7 +23,7 @@ const Slider = (props) => {
     return <fieldset>
         <label htmlFor={props.name.toLowerCase()}>{props.name}</label>
 
-        <div>
+        <div className={classes.labels}>
             <input
                 name={props.name.toLowerCase()} type="range"
                 min="-50" max="50"
@@ -26,9 +31,6 @@ const Slider = (props) => {
                 dataminlabel={props.minLabel} datamaxlabel={props.maxLabel}
                 className={classes.gradient}
             ></input>
-
-            <span className="min-label">&nbsp;{props.minLabel}&nbsp;</span>
-            <span className="max-label">&nbsp;{props.maxLabel}&nbsp;</span>
         </div>
 
         <datalist id={dataListId}>

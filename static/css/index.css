@@ -26,8 +26,26 @@ form {
 fieldset {
     border: none;
     text-align: center;
-    width: 80%;
     margin: 0 auto;
+}
+
+fieldset div::before,
+fieldset div::after {
+    display: inline-block;
+    position: relative;
+    padding: 0 1em;
+    width: 10em;
+    font-size: small;
+}
+
+fieldset div::before {
+    float: inline-start;
+    text-align: right;
+}
+
+fieldset div::after {
+    float: inline-end;
+    text-align: left;
 }
 
 /* datalist option::before {
@@ -117,21 +135,4 @@ input[type = range]:focus::-ms-fill-upper {
 
 input[type = range]:focus::-ms-fill-lower {
     background: #92bb83;
-}
-
-.min-label, .max-label {
-    position: relative;
-    /* top: -2.2em; */
-    width: 10em;
-    font-size: small;
-}
-
-.min-label {
-    float: inline-start;
-    text-align: right;
-}
-
-.max-label {
-    float: inline-end;
-    text-align-last: left;
 }
