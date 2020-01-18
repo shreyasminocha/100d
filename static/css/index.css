@@ -33,18 +33,17 @@ fieldset div::before,
 fieldset div::after {
     display: inline-block;
     position: relative;
+    top: -36px;
     padding: 0 1em;
-    width: 10em;
+    width: 20em;
     font-size: small;
 }
 
 fieldset div::before {
-    float: inline-start;
     text-align: right;
 }
 
 fieldset div::after {
-    float: inline-end;
     text-align: left;
 }
 
