@@ -1,6 +1,6 @@
 body {
     width: 60%;
-    margin: 0 auto;
+    margin: 2em auto;
     text-align: center;
     font-family: Montserrat, serif;
 }
@@ -20,9 +20,6 @@ datalist option {
     display: contents;
 }
 
-form {
-}
-
 fieldset {
     border: none;
     text-align: center;
@@ -35,7 +32,7 @@ fieldset div::after {
     position: relative;
     top: -36px;
     padding: 0 1em;
-    width: 20em;
+    width: 10em;
     font-size: small;
 }
 
@@ -46,18 +43,6 @@ fieldset div::before {
 fieldset div::after {
     text-align: left;
 }
-
-/* datalist option::before {
-    content: attr(label);
-}
-
-datalist option[value = '-50']::before {
-    margin-left: -50px;
-}
-
-datalist option[value = '50']::before {
-    margin-left: 50px;
-} */
 
 input[type = range] {
     -webkit-appearance: none;
@@ -134,4 +119,9 @@ input[type = range]:focus::-ms-fill-upper {
 
 input[type = range]:focus::-ms-fill-lower {
     background: #92bb83;
+}
+
+input[type = submit] {
+    border: none;
+    padding: 1em 2em;
 }
