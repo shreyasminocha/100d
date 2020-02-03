@@ -2,41 +2,20 @@
   "name": "100d",
   "version": "0.0.0",
   "description": "100-dimensional political compass",
-  "main": "index.mdx",
+  "main": "src/pages/index.mdx",
   "scripts": {
-    "test": "true",
-    "start": "zero"
+    "test": "true"
   },
   "author": "Shreyas Minocha",
   "license": "MIT",
-  "devDependencies": {
-    "zero": "^1.1.19"
-  },
-  "alias": {
-    "react-dom": "@hot-loader/react-dom"
-  },
   "dependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/plugin-proposal-class-properties": "^7.3.4",
-    "@babel/plugin-transform-runtime": "^7.2.0",
-    "@babel/runtime": "^7.3.1",
-    "@hot-loader/react-dom": "^16.8.1",
-    "@mdx-js/mdx": "^1.5.1",
-    "@mdx-js/react": "^1.5.1",
-    "@mdx-js/tag": "^0.20.3",
+    "@mdx-js/mdx": "^1.5.5",
+    "@mdx-js/react": "^1.5.5",
     "@sindresorhus/slugify": "^0.10.0",
-    "babel-plugin-react-require": "^3.1.1",
-    "babel-plugin-transform-zero-dirname-filename": "^1.1.1-alpha.0",
-    "cssnano": "^4.1.10",
-    "prism-react-renderer": "^1.0.2",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-helmet-async": "^1.0.4",
-    "react-hot-loader": "^4.12.15",
-    "react-jss": "^10.0.3",
-    "regenerator-runtime": "^0.12.0",
-    "sass": "^1.17.2",
-    "static": "2.0.0",
-    "styled-components": "^5.0.0"
+    "gatsby": "^2.19.12",
+    "gatsby-plugin-mdx": "^1.0.70",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-jss": "^10.0.4"
   }
 }
