@@ -1,6 +1,6 @@
 import React from 'react';
 import slugify from '@sindresorhus/slugify';
-import Slider from './Slider.jsx';
+import Slider from './slider.jsx';
 import withQueryParams from './with-query-params.jsx';
 
 const Questions = (props) => {
