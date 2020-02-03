@@ -4,7 +4,12 @@
   "description": "100-dimensional political compass",
   "main": "src/pages/index.mdx",
   "scripts": {
-    "test": "true"
+    "test": "true",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "clean": "gatsby clean",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
   },
   "author": "Shreyas Minocha",
   "license": "MIT",
