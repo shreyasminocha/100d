@@ -30,6 +30,7 @@ const Slider = (props) => {
             <input
                 name={slugifiedName} type="range"
                 min="-50" max="50"
+                value={props.value}
                 list={dataListId}
                 dataminlabel={props.minLabel} datamaxlabel={props.maxLabel}
                 className={classes.gradient}
