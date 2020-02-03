@@ -1,5 +1,6 @@
 import React from 'react';
 import {createUseStyles} from 'react-jss';
+import slugify from '@sindresorhus/slugify';
 
 const useStyles = createUseStyles({
     gradient: {
@@ -17,15 +18,17 @@ const useStyles = createUseStyles({
 });
 
 const Slider = (props) => {
-    const dataListId = `${props.name.toLowerCase()}-ticks`;
+    const slugifiedName = slugify(props.name);
+    const dataListId = `${slugifiedName}-ticks`;
+
     const classes = useStyles(props);
 
     return <fieldset>
-        <label htmlFor={props.name.toLowerCase()}>{props.name}</label>
+        <label htmlFor={slugifiedName}>{props.name}</label>
 
         <div className={classes.labels}>
             <input
-                name={props.name.toLowerCase()} type="range"
+                name={slugifiedName} type="range"
                 min="-50" max="50"
                 list={dataListId}
                 dataminlabel={props.minLabel} datamaxlabel={props.maxLabel}
