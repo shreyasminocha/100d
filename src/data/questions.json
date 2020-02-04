@@ -305,7 +305,7 @@
         "minColor": "#fe0200", "maxColor": "#40fb0a"
     },
     {
-        "name": "iso/globa",
+        "name": "iso/global",
         "minLabel": "globalism", "maxLabel": "isolationism",
         "minColor": "#01c5ff", "maxColor": "#ac03fe"
     },
@@ -350,7 +350,7 @@
         "minColor": "#fbfe01", "maxColor": "#9702fa"
     },
     {
-        "name": "likeliness to pull 😁 face",
+        "name": "likeliness to pull 😬 face",
         "minLabel": "likely", "maxLabel": "not likely",
         "minColor": "#99de36", "maxColor": "#9f3633"
     },
