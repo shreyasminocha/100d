@@ -23,7 +23,7 @@ const Slider = (props) => {
 
     const classes = useStyles(props);
 
-    return <fieldset>
+    return <div className="axis">
         <label htmlFor={slugifiedName}>{props.name}</label>
 
         <div className={classes.labels}>
@@ -41,7 +41,7 @@ const Slider = (props) => {
             <option value="-10" label={props.minLabel}></option>
             <option value="10" label={props.maxLabel}></option>
         </datalist>
-    </fieldset>;
+    </div>;
 };
 
 export default Slider;

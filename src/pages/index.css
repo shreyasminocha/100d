@@ -25,14 +25,14 @@ datalist option {
     display: contents;
 }
 
-fieldset {
+.axis {
     border: none;
     text-align: center;
     margin: 0 auto;
 }
 
-fieldset div::before,
-fieldset div::after {
+.axis div::before,
+.axis div::after {
     display: inline-block;
     position: relative;
     top: -36px;
@@ -41,11 +41,11 @@ fieldset div::after {
     font-size: small;
 }
 
-fieldset div::before {
+.axis div::before {
     text-align: right;
 }
 
-fieldset div::after {
+.axis div::after {
     text-align: left;
 }
 
