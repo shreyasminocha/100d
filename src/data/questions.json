@@ -7,456 +7,457 @@
     {
         "name": "cultural",
         "minLabel": "progressive", "maxLabel": "traditional",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#0d9600", "maxColor": "#b50100"
     },
     {
         "name": "security",
         "minLabel": "freedom", "maxLabel": "authority",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#fdfc01", "maxColor": "#b90300"
     },
     {
         "name": "age",
         "minLabel": "0", "maxLabel": "100",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "white", "maxColor": "black"
     },
     {
         "name": "wackiness",
         "minLabel": "tame", "maxLabel": "wacky",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#fdfc01", "maxColor": "#c503b9"
     },
     {
         "name": "cultural",
         "minLabel": "deacceleration", "maxLabel": "acceleration",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "black", "maxColor": "#006d00"
     },
     {
         "name": "technological",
         "minLabel": "deacceleration", "maxLabel": "acceleration",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "black", "maxColor": "#00c6d3"
     },
     {
         "name": "economic",
         "minLabel": "deacceleration", "maxLabel": "acceleration",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "black", "maxColor": "#f9ff00"
     },
     {
         "name": "eso/mat",
         "minLabel": "esoteric", "maxLabel": "worldly",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#00fef4", "maxColor": "#128204"
     },
     {
         "name": "gay",
         "minLabel": "exclusive", "maxLabel": "inclusive",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "black", "maxColor": "#f804d8"
     },
     {
         "name": "race",
         "minLabel": "exclusive", "maxLabel": "inclusive",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "black", "maxColor": "#753400"
     },
     {
         "name": "bi",
         "minLabel": "exclusive", "maxLabel": "inclusive",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "black", "maxColor": "#b100fc"
     },
     {
         "name": "age",
         "minLabel": "exclusive", "maxLabel": "inclusive",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "black", "maxColor": "#05c8ff"
     },
     {
         "name": "trans",
         "minLabel": "exclusive", "maxLabel": "inclusive",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "black", "maxColor": "#81fbfc"
     },
     {
         "name": "disabled",
         "minLabel": "exclusive", "maxLabel": "inclusive",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "black", "maxColor": "#4aaaff"
     },
     {
         "name": "queer",
         "minLabel": "exclusive", "maxLabel": "inclusive",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "black", "maxColor": "#05c8ff"
     },
     {
         "name": "exclusive people",
         "minLabel": "exclusive", "maxLabel": "inclusive",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "black", "maxColor": "#fc0001"
     },
     {
         "name": "enby",
         "minLabel": "exclusive", "maxLabel": "inclusive",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "black", "maxColor": "#ff9d0b"
     },
     {
         "name": "extremity",
         "minLabel": "exclusive", "maxLabel": "inclusive",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#fcb4fe", "maxColor": "#ff0204"
     },
     {
         "name": "personal political violence expected",
         "minLabel": "no violence", "maxLabel": "lots of violence",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#408efd", "maxColor": "#fc0106"
     },
     {
         "name": "morality",
         "minLabel": "amoral", "maxLabel": "moral",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#f101fa", "maxColor": "#028d0e"
     },
     {
         "name": "collectivism vs individualism",
         "minLabel": "collectivism", "maxLabel": "individualism",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#006dfc", "maxColor": "#c5fe01"
     },
     {
         "name": "ability to exist in alternate timelines",
         "minLabel": "yes", "maxLabel": "no",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#0dfc01", "maxColor": "#fe0201"
     },
     {
         "name": "watch anime",
         "minLabel": "yes", "maxLabel": "no",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#feb1ff", "maxColor": "#684003"
     },
     {
         "name": "foreign military policy",
         "minLabel": "direct military intervention", "maxLabel": "no military intervention",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#ffd705", "maxColor": "#02ccfe"
     },
     {
         "name": "foreign politics",
         "minLabel": "don\\'t care", "maxLabel": "care",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#ffd705", "maxColor": "#02ccfe"
     },
     {
         "name": "taxing billionaires",
         "minLabel": "0%", "maxLabel": "100%",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#0dfc01", "maxColor": "#fe0201"
     },
     {
         "name": "inheritance",
         "minLabel": "high parental advantage", "maxLabel": "low parental advantage",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#9cde34", "maxColor": "#a13439"
     },
     {
         "name": "in regret",
         "minLabel": "0%", "maxLabel": "100%",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#1bc81e", "maxColor": "#350400"
     },
     {
         "name": "improving environment",
         "minLabel": "technology", "maxLabel": "ecology",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#00fed9", "maxColor": "#25b204"
     },
     {
         "name": "racial eugenics",
         "minLabel": "no euthanization", "maxLabel": "euthanization",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#674100", "maxColor": "black"
     },
     {
         "name": "economic eugenics",
         "minLabel": "no euthanization", "maxLabel": "euthanization",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#01fc30", "maxColor": "black"
     },
     {
         "name": "disabled eugenics",
         "minLabel": "no euthanization", "maxLabel": "euthanization",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#0093fd", "maxColor": "black"
     },
     {
         "name": "IQ eugenics",
         "minLabel": "no euthanization", "maxLabel": "euthanization",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#fda600", "maxColor": "black"
     },
     {
         "name": "ideological eugenics",
         "minLabel": "no euthanization", "maxLabel": "euthanization",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#fc0000", "maxColor": "black"
     },
     {
         "name": "natalism",
         "minLabel": "antinatalist", "maxLabel": "natalist",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "black", "maxColor": "#06bc72"
     },
     {
         "name": "intelligence",
         "minLabel": "smooth brain", "maxLabel": "wrinkled brain",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#ffad03", "maxColor": "#fc6dfa"
     },
     {
         "name": "happiness",
         "minLabel": "happy", "maxLabel": "sad",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#fee202", "maxColor": "black"
     },
     {
         "name": "anxiety",
         "minLabel": "not anxious", "maxLabel": "constantly anxious",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#02dbfc", "maxColor": "#fc0404"
     },
     {
         "name": "technology",
         "minLabel": "isn\\'t a threat", "maxLabel": "is a big threat",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#79fcf7", "maxColor": "#b60404"
     },
     {
         "name": "would it work in upper dimensions",
         "minLabel": "yes", "maxLabel": "no",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#0dfc01", "maxColor": "#fe0201"
     },
     {
         "name": "is it possible",
         "minLabel": "yes", "maxLabel": "no",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#0dfc01", "maxColor": "#fe0201"
     },
     {
         "name": "is your opinion on the ussr correct",
         "minLabel": "yes", "maxLabel": "no",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#0dfc01", "maxColor": "#fe0201"
     },
     {
         "name": "has your ideology really been tried",
         "minLabel": "yes", "maxLabel": "no",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#0dfc01", "maxColor": "#fe0201"
     },
     {
         "name": "your will to live",
         "minLabel": "0%", "maxLabel": "100%",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "black", "maxColor": "#fde101"
     },
     {
         "name": "lonely",
         "minLabel": "help", "maxLabel": "help",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "black", "maxColor": "black"
     },
     {
         "name": "empty",
         "minLabel": "help", "maxLabel": "help",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "black", "maxColor": "black"
     },
     {
         "name": "topia",
         "minLabel": "eutopia", "maxLabel": "dystopia",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#27b800", "maxColor": "#022054"
     },
     {
         "name": "oomer",
         "minLabel": "doomer", "maxLabel": "bloomer",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "black", "maxColor": "#00fd02"
     },
     {
         "name": "would your ideology be your friend?",
         "minLabel": "no", "maxLabel": "yes",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#fe0200", "maxColor": "#40fb0a"
     },
     {
         "name": "why are all your videos cries for help?",
         "minLabel": "help", "maxLabel": "help",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "black", "maxColor": "black"
     },
     {
         "name": "how likely to use drugs",
         "minLabel": "not likely", "maxLabel": "very likely",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "black", "maxColor": "#fff70c"
     },
     {
         "name": "how likely to smoke",
         "minLabel": "not likely", "maxLabel": "very likely",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#02fc5a", "maxColor": "#5d3b00"
     },
     {
         "name": "reading theory",
         "minLabel": "reads theory", "maxLabel": "doesn\\'t read theory",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "black", "maxColor": "#ff00ea"
     },
     {
         "name": "praxis axis",
         "minLabel": "praxis", "maxLabel": "theory",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#fe0000", "maxColor": "#850001"
     },
     {
         "name": "guilt about using dark humour",
         "minLabel": "not guilty", "maxLabel": "guilty",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#720294", "maxColor": "#95f934"
     },
     {
         "name": "willingness to be politically correct",
         "minLabel": "willing", "maxLabel": "not willing",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#95f934", "maxColor": "#720294"
     },
     {
         "name": "how many friends do you have",
         "minLabel": "none", "maxLabel": "lots",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "black", "maxColor": "#81fbfc"
     },
     {
         "name": "are you willing to improve",
         "minLabel": "no", "maxLabel": "yes",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#fe0200", "maxColor": "#40fb0a"
     },
     {
         "name": "can your ideology be spread as a meme",
         "minLabel": "no", "maxLabel": "yes",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#fe0200", "maxColor": "#40fb0a"
     },
     {
         "name": "are you a gamer",
         "minLabel": "no", "maxLabel": "i am GAMER",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#fe0200", "maxColor": "#40fb0a"
     },
     {
         "name": "iso/globa",
         "minLabel": "globalism", "maxLabel": "isolationism",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#01c5ff", "maxColor": "#ac03fe"
     },
     {
         "name": "how much do you fuck",
         "minLabel": "never", "maxLabel": "all the time",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#408dff", "maxColor": "#fe0103"
     },
     {
         "name": "religious",
         "minLabel": "secular", "maxLabel": "religious",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#fa9602", "maxColor": "#01a2fc"
     },
     {
         "name": "colonialism",
         "minLabel": "anti-colonialism", "maxLabel": "pro colonialism",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#006ef7", "maxColor": "#c4ff02"
     },
     {
         "name": "how likely is infighting",
         "minLabel": "very likely", "maxLabel": "not likely",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#40fb0a", "maxColor": "#fe0200"
     },
     {
         "name": "demand for war",
         "minLabel": "jingoism", "maxLabel": "pacifism",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#fe0005", "maxColor": "#868583"
     },
     {
         "name": "dank or normie",
         "minLabel": "dank", "maxLabel": "normie",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#fd03fb", "maxColor": "#412609"
     },
     {
         "name": "boomer vs zoomer",
         "minLabel": "boomer appeal", "maxLabel": "zoomer appeal",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#c9c9cb", "maxColor": "#02cbff"
     },
     {
         "name": "monarchy",
         "minLabel": "no monarchy", "maxLabel": "absolute monarchy",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#fbfe01", "maxColor": "#9702fa"
     },
     {
         "name": "likeliness to pull 😁 face",
         "minLabel": "likely", "maxLabel": "not likely",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#99de36", "maxColor": "#9f3633"
     },
     {
         "name": "wishy-washy-ness",
         "minLabel": "wishy-washy", "maxLabel": "immovable",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#80fdf7", "maxColor": "#6a6a6a"
     },
     {
         "name": "punishment",
         "minLabel": "rehabilitation", "maxLabel": "retribution",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#279002", "maxColor": "#02468d"
     },
     {
         "name": "climate change",
         "minLabel": "don\\'t think about it", "maxLabel": "think too much about it",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#279002", "maxColor": "#02468d"
     },
     {
         "name": "sympathy for centrists",
         "minLabel": "sympathy", "maxLabel": "no sympathy",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#676566", "maxColor": "#fe0201"
     },
     {
         "name": "tolerance for opposing beliefs",
         "minLabel": "tolerant", "maxLabel": "not tolerant",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#75b12b", "maxColor": "#4a3301"
     },
     {
         "name": "nature/nurture",
         "minLabel": "essentialism", "maxLabel": "constructivism",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#006dfa", "maxColor": "#0dfe01"
     },
     {
         "name": "potential for small g genocide",
         "minLabel": "yes", "maxLabel": "no",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#40fb0a", "maxColor": "#fe0200"
     },
     {
         "name": "potential for Big G Genocide",
         "minLabel": "yes", "maxLabel": "no",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#40fb0a", "maxColor": "#fe0200"
     },
     {
         "name": "levels of irony",
         "minLabel": "0", "maxLabel": "15+",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#8d8d8d", "maxColor": "#0072ff"
     },
     {
         "name": "reactionism",
         "minLabel": "reactionary", "maxLabel": "non-reactionary",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#fe0200", "maxColor": "#40fb0a"
+
     },
     {
         "name": "wing reactionism",
         "minLabel": "left", "maxLabel": "right",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#408dff", "maxColor": "#fe0103"
     },
     {
         "name": "realism",
         "minLabel": "idealistic", "maxLabel": "realistic",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#fe0200", "maxColor": "#40fb0a"
     },
     {
         "name": "israel/palestine",
         "minLabel": "israel", "maxLabel": "palestine",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#0154fc", "maxColor": "#347e03"
     },
     {
         "name": "would you act for your ideology",
         "minLabel": "would act", "maxLabel": "wouldn\\'t act",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#fe0200", "maxColor": "#40fb0a"
     },
     {
         "name": "there's one correct answer",
         "minLabel": "fortnite", "maxLabel": "minecraft",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#fe0200", "maxColor": "#40fb0a"
     },
     {
         "name": "revo/reform",
         "minLabel": "revolution", "maxLabel": "reformism",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#408dff", "maxColor": "#fe0103"
     },
     {
         "name": "metaphorical penis size",
         "minLabel": "1 inch", "maxLabel": "12 inches",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#fdefd5", "maxColor": "#653004"
     },
     {
         "name": "how many pencils do you have",
         "minLabel": "0", "maxLabel": "lots",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#7302ff", "maxColor": "#fdb500"
     },
     {
         "name": "multi/assim",
         "minLabel": "multiculturalism", "maxLabel": "assimilation",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#059bfa", "maxColor": "#fe7800"
     },
     {
         "name": "concentration of power",
         "minLabel": "local", "maxLabel": "broad",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#fcde00", "maxColor": "#00acfb"
     },
     {
         "name": "who makes the decisions",
         "minLabel": "direct democracy", "maxLabel": "dictator",
-        "minColor": "white", "maxColor": "green"
+        "minColor": "#deff00", "maxColor": "#c601fe"
     }
 ]
