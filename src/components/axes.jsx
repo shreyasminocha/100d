@@ -3,7 +3,7 @@ import slugify from '@sindresorhus/slugify';
 import Slider from './slider.jsx';
 import withQueryParams from './with-query-params.jsx';
 
-const Questions = (props) => {
+const Axes = (props) => {
     const sliders = [];
 
     for (const question of props.data) {
@@ -23,4 +23,4 @@ const Questions = (props) => {
     return sliders;
 };
 
-export default withQueryParams(Questions);
+export default withQueryParams(Axes);
