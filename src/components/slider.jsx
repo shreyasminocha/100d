@@ -29,7 +29,7 @@ const Slider = (props) => {
         <div className={classes.labels}>
             <input
                 name={slugifiedName} type="range"
-                min="-50" max="50"
+                min="-10" max="10"
                 defaultValue={props.value}
                 list={dataListId}
                 dataminlabel={props.minLabel} datamaxlabel={props.maxLabel}
@@ -38,8 +38,8 @@ const Slider = (props) => {
         </div>
 
         <datalist id={dataListId}>
-            <option value="-50" label={props.minLabel}></option>
-            <option value="50" label={props.maxLabel}></option>
+            <option value="-10" label={props.minLabel}></option>
+            <option value="10" label={props.maxLabel}></option>
         </datalist>
     </fieldset>;
 };
