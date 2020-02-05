@@ -25,17 +25,17 @@
         "minColor": "#fdfc01", "maxColor": "#c503b9"
     },
     {
-        "name": "cultural",
+        "name": "cultural acceleration",
         "minLabel": "deacceleration", "maxLabel": "acceleration",
         "minColor": "black", "maxColor": "#006d00"
     },
     {
-        "name": "technological",
+        "name": "technological acceleration",
         "minLabel": "deacceleration", "maxLabel": "acceleration",
         "minColor": "black", "maxColor": "#00c6d3"
     },
     {
-        "name": "economic",
+        "name": "economic acceleration",
         "minLabel": "deacceleration", "maxLabel": "acceleration",
         "minColor": "black", "maxColor": "#f9ff00"
     },
@@ -45,52 +45,52 @@
         "minColor": "#00fef4", "maxColor": "#128204"
     },
     {
-        "name": "gay",
+        "name": "gay inclusivity",
         "minLabel": "exclusive", "maxLabel": "inclusive",
         "minColor": "black", "maxColor": "#f804d8"
     },
     {
-        "name": "race",
+        "name": "race inclusivity",
         "minLabel": "exclusive", "maxLabel": "inclusive",
         "minColor": "black", "maxColor": "#753400"
     },
     {
-        "name": "bi",
+        "name": "bi inclusivity",
         "minLabel": "exclusive", "maxLabel": "inclusive",
         "minColor": "black", "maxColor": "#b100fc"
     },
     {
-        "name": "age",
+        "name": "age inclusivity",
         "minLabel": "exclusive", "maxLabel": "inclusive",
         "minColor": "black", "maxColor": "#05c8ff"
     },
     {
-        "name": "trans",
+        "name": "trans inclusivity",
         "minLabel": "exclusive", "maxLabel": "inclusive",
         "minColor": "black", "maxColor": "#81fbfc"
     },
     {
-        "name": "disabled",
+        "name": "disabled inclusivity",
         "minLabel": "exclusive", "maxLabel": "inclusive",
         "minColor": "black", "maxColor": "#4aaaff"
     },
     {
-        "name": "queer",
+        "name": "queer inclusivity",
         "minLabel": "exclusive", "maxLabel": "inclusive",
         "minColor": "black", "maxColor": "#05c8ff"
     },
     {
-        "name": "exclusive people",
+        "name": "exclusive people inclusivity",
         "minLabel": "exclusive", "maxLabel": "inclusive",
         "minColor": "black", "maxColor": "#fc0001"
     },
     {
-        "name": "enby",
+        "name": "enby inclusivity",
         "minLabel": "exclusive", "maxLabel": "inclusive",
         "minColor": "black", "maxColor": "#ff9d0b"
     },
     {
-        "name": "extremity",
+        "name": "extremity inclusivity",
         "minLabel": "exclusive", "maxLabel": "inclusive",
         "minColor": "#fcb4fe", "maxColor": "#ff0204"
     },
