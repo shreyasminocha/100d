@@ -1,12 +1,8 @@
-import qs from 'query-string';
-import removeNilAxes from './_lib/remove-nil-axes';
+import axesToQueryString from './_lib/axes-to-query-string';
 
 function permalink(request, response) {
-    const modifiedAxes = removeNilAxes(request.body);
-    const queryString = qs.stringify(modifiedAxes);
-
     response.writeHead(302, {
-        location: `/?${queryString}`
+        location: `/?${axesToQueryString(request.body)}`
     });
     response.end();
 };
