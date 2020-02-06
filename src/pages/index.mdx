@@ -9,7 +9,11 @@ Near-replica of [u/DontDoMarmalade](https://www.reddit.com/user/DontDoMarmalade)
 
 ---
 
-<form method="post" action="/api/permalink">
-    <Axes data={axes}></Axes>
-    <input type="submit" value="Permalink"/>
+<form method="post" action="/api/s">
+
+<Axes data={axes}/>
+
+<input type="submit" value="Permalink" formaction="/api/permalink"/>
+<input type="submit" value="Short link"/>
+
 </form>

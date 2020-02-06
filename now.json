@@ -1,20 +1,6 @@
 {
     "name": "100d",
-    "builds": [
-        {
-            "src": "package.json",
-            "use": "@now/static-build",
-            "config": { "distDir": "public" }
-        },
-        {
-            "src": "api/*.js",
-            "use": "@now/node"
-        }
-    ],
-    "routes": [
-        {
-            "src": "/api/(.*)",
-            "dest": "/api/$1.js"
-        }
+    "rewrites": [
+        { "source": "/s/:id", "destination": "/api/s/[id].js" }
     ]
 }

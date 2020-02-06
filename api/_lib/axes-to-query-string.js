@@ -1,4 +1,4 @@
-import qs from 'query-string';
+const qs = require('query-string');
 
 function axesToQueryString(axes) {
     const axesArray = Object.entries(axes);
@@ -8,4 +8,4 @@ function axesToQueryString(axes) {
     return qs.stringify(modifiedAxes);
 }
 
-export default axesToQueryString;
+module.exports = axesToQueryString;
