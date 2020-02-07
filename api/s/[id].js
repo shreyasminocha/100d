@@ -1,8 +1,7 @@
 const redis = require('redis');
 const {promisify} = require('util');
 
-const client = redis.createClient();
-
+const client = redis.createClient({url: process.env.DB_URL});
 const get = promisify(client.get).bind(client);
 
 async function getUrl(request, response) {

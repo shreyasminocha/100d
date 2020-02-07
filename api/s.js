@@ -3,7 +3,7 @@ const redis = require('redis');
 const {promisify} = require('util');
 const shortId = require('shortid');
 
-const client = redis.createClient();
+const client = redis.createClient({url: process.env.DB_URL});
 const set = promisify(client.set).bind(client);
 
 async function shorten(request, response) {

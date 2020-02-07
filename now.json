@@ -2,5 +2,8 @@
     "name": "100d",
     "rewrites": [
         { "source": "/s/:id", "destination": "/api/s/[id].js" }
-    ]
+    ],
+    "env": {
+        "DB_URL": "@db-url"
+    }
 }
