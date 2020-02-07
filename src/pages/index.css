@@ -129,4 +129,22 @@ input[type = range]:focus::-ms-fill-lower {
 input[type = submit] {
     border: none;
     padding: 1em 2em;
+    cursor: pointer;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+ul li {
+    margin-right: 1em;
+}
+
+ul li:last-child {
+    margin-right: 0;
 }
