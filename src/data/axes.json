@@ -126,7 +126,7 @@
     },
     {
         "name": "foreign politics",
-        "minLabel": "don\\'t care", "maxLabel": "care",
+        "minLabel": "don't care", "maxLabel": "care",
         "minColor": "#ffd705", "maxColor": "#02ccfe"
     },
     {
@@ -196,7 +196,7 @@
     },
     {
         "name": "technology",
-        "minLabel": "isn\\'t a threat", "maxLabel": "is a big threat",
+        "minLabel": "isn't a threat", "maxLabel": "is a big threat",
         "minColor": "#79fcf7", "maxColor": "#b60404"
     },
     {
@@ -266,7 +266,7 @@
     },
     {
         "name": "reading theory",
-        "minLabel": "reads theory", "maxLabel": "doesn\\'t read theory",
+        "minLabel": "reads theory", "maxLabel": "doesn't read theory",
         "minColor": "black", "maxColor": "#ff00ea"
     },
     {
@@ -366,7 +366,7 @@
     },
     {
         "name": "climate change",
-        "minLabel": "don\\'t think about it", "maxLabel": "think too much about it",
+        "minLabel": "don't think about it", "maxLabel": "think too much about it",
         "minColor": "#279002", "maxColor": "#02468d"
     },
     {
@@ -422,7 +422,7 @@
     },
     {
         "name": "would you act for your ideology",
-        "minLabel": "would act", "maxLabel": "wouldn\\'t act",
+        "minLabel": "would act", "maxLabel": "wouldn't act",
         "minColor": "#fe0200", "maxColor": "#40fb0a"
     },
     {

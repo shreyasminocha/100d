@@ -1,5 +1,8 @@
+:root {
+    --slider-width: 20em;
+}
+
 body {
-    width: 60%;
     margin: 2em auto;
     text-align: center;
     font-family: Montserrat, serif;
@@ -19,10 +22,28 @@ label {
 
 datalist {
     display: block;
+    position: relative;
+    top: 1.2em;
 }
 
 datalist option {
-    display: contents;
+    color: black;
+    font-size: small;
+    display: inline-block;
+    position: relative;
+    top: -17px;
+    padding: 0 calc(var(--slider-width) / 2);
+    width: 14em;
+}
+
+datalist option:nth-child(1) {
+    text-align: right;
+    padding-left: 0;
+}
+
+datalist option:nth-child(2) {
+    text-align: left;
+    padding-right: 0;
 }
 
 .axis {
@@ -31,27 +52,9 @@ datalist option {
     margin: 0 auto;
 }
 
-.axis div::before,
-.axis div::after {
-    display: inline-block;
-    position: relative;
-    top: -36px;
-    padding: 0 1em;
-    width: 10em;
-    font-size: small;
-}
-
-.axis div::before {
-    text-align: right;
-}
-
-.axis div::after {
-    text-align: left;
-}
-
 input[type = range] {
     -webkit-appearance: none;
-    width: 20em;
+    width: var(--slider-width);
     margin-bottom: 3em;
 }
 

@@ -9,12 +9,7 @@ const useStyles = createUseStyles({
                 return `linear-gradient(90deg, ${props.minColor}, ${props.maxColor})`;
             }
         }
-    },
-
-    labels: (props) => ({
-        '&::before': { content: `'${props.minLabel}'` },
-        '&::after': { content: `'${props.maxLabel}'` }
-    })
+    }
 });
 
 const Slider = (props) => {
@@ -26,21 +21,18 @@ const Slider = (props) => {
     return <div className="axis">
         <label htmlFor={slugifiedName}>{props.name}</label>
 
-        <div className={classes.labels}>
-            <input
-                name={slugifiedName} type="range"
-                min="-10" max="10"
-                defaultValue={props.value}
-                list={dataListId}
-                dataminlabel={props.minLabel} datamaxlabel={props.maxLabel}
-                className={classes.gradient}
-            ></input>
-        </div>
-
         <datalist id={dataListId}>
-            <option value="-10" label={props.minLabel}></option>
-            <option value="10" label={props.maxLabel}></option>
+            <option value="-10" label={props.minLabel}>{props.minLabel}</option>
+            <option value="10" label={props.maxLabel}>{props.maxLabel}</option>
         </datalist>
+
+        <input
+            name={slugifiedName} type="range"
+            min="-10" max="10"
+            defaultValue={props.value}
+            list={dataListId}
+            className={classes.gradient}
+        ></input>
     </div>;
 };
 
