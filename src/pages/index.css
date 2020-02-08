@@ -9,13 +9,6 @@ hr {
     border: 1px solid #cccccc;
 }
 
-label {
-    display: block;
-    margin-bottom: 1em;
-    font-weight: 600;
-    text-align: center;
-}
-
 input[type = submit] {
     border: none;
     padding: 1em 2em;

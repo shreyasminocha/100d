@@ -121,7 +121,7 @@
     },
     {
         "name": "foreign military policy",
-        "minLabel": "direct military intervention", "maxLabel": "no military intervention",
+        "minLabel": "direct mil. intervention", "maxLabel": "no mil. intervention",
         "minColor": "#ffd705", "maxColor": "#02ccfe"
     },
     {

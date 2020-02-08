@@ -2,6 +2,13 @@
     --slider-width: 20em;
 }
 
+label {
+    display: block;
+    margin-bottom: 1em;
+    font-weight: 600;
+    text-align: center;
+}
+
 datalist {
     display: block;
     position: relative;
@@ -15,7 +22,7 @@ datalist option {
     position: relative;
     top: -17px;
     padding: 0 calc(var(--slider-width) / 2);
-    width: 14em;
+    width: 15em;
 }
 
 datalist option:nth-child(1) {
@@ -26,6 +33,52 @@ datalist option:nth-child(1) {
 datalist option:nth-child(2) {
     text-align: left;
     padding-right: 0;
+}
+
+@media all and (max-width: 650px) {
+    :root {
+        --slider-width: 10em;
+    }
+}
+
+@media all and (max-width: 525px) {
+    :root {
+        --slider-width: 15em;
+    }
+
+    label {
+        margin-bottom: 0.5em;
+    }
+
+    datalist {
+        display: block;
+        position: initial;
+        margin-bottom: 1em;
+    }
+
+    datalist option {
+        color: black;
+        font-size: small;
+        display: block;
+        position: initial;
+        margin-bottom: 0.75em;
+        width: 100%;
+        padding: 0;
+    }
+
+    datalist option:nth-child(1)::before,
+    datalist option:nth-child(2)::before {
+        font-style: normal;
+    }
+
+    datalist option:nth-child(1)::before { content: 'from '; }
+    datalist option:nth-child(2)::before { content: 'to '; }
+
+    datalist option:nth-child(1),
+    datalist option:nth-child(2) {
+        text-align: center;
+        font-style: italic;
+    }
 }
 
 .axis {
