@@ -1,7 +1,7 @@
 import React from 'react';
 import slugify from '@sindresorhus/slugify';
-import Slider from './slider.jsx';
-import withQueryParams from './with-query-params.jsx';
+import Slider from './slider';
+import withQueryParams from './with-query-params';
 
 const Axes = (props) => {
     const sliders = [];
