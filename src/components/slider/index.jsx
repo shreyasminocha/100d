@@ -5,7 +5,12 @@ import './slider.css';
 
 const useStyles = createUseStyles({
     gradient: {
-        '&::-webkit-slider-runnable-track, &::-moz-range-track': {
+        '&::-webkit-slider-runnable-track': {
+            background: (props) => {
+                return `linear-gradient(90deg, ${props.minColor}, ${props.maxColor})`;
+            }
+        },
+        '&::-moz-range-track': {
             background: (props) => {
                 return `linear-gradient(90deg, ${props.minColor}, ${props.maxColor})`;
             }
