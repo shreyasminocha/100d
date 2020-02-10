@@ -6,10 +6,7 @@ const get = promisify(client.get).bind(client);
 
 async function getUrl(request, response) {
     const queryString = await get(request.query.id);
-    response.writeHead(302, {
-        location: `/?${queryString}`
-    });
-    response.end();
+    response.send(`/?${queryString}`);
 }
 
 module.exports = getUrl;

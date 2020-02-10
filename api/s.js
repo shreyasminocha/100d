@@ -12,9 +12,7 @@ async function shorten(request, response) {
 
     await set(id, queryString);
 
-    response.json({
-        link: `/s/${id}`
-    });
+    response.send(`/s/${id}`);
 }
 
 module.exports = shorten;
