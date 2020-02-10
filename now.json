@@ -1,5 +1,4 @@
 {
-    "name": "100d",
     "env": {
         "DB_URL": "@db-url"
     }
