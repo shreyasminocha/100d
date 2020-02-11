@@ -33,13 +33,7 @@ datalist option:nth-child(2) {
     padding-right: 0;
 }
 
-@media all and (max-width: 650px) {
-    $track-width: 10em;
-}
-
-@media all and (max-width: 525px) {
-    $track-width: 15em;
-
+@media all and (max-width: 675px) {
     label {
         margin-bottom: 0.5em;
     }
