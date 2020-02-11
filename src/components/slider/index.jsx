@@ -1,7 +1,7 @@
 import React from 'react';
 import {createUseStyles} from 'react-jss';
 import slugify from '@sindresorhus/slugify';
-import './slider.css';
+import './slider.scss';
 
 const useStyles = createUseStyles({
     gradient: {
