@@ -9,6 +9,18 @@ module.exports = {
             resolve: 'gatsby-plugin-create-client-paths',
             options: { prefixes: ['/s/*'] },
         },
-        'gatsby-plugin-sass'
+        'gatsby-plugin-sass',
+        {
+            resolve: 'gatsby-plugin-manifest',
+            options: {
+                name: '100D Political Model',
+                short_name: '100D',
+                start_url: '/',
+                background_color: '#f5f5f5',
+                theme_color: '#f5f5f5',
+                display: 'standalone',
+                icon: 'static/images/icon.png'
+            }
+        }
     ]
 };
