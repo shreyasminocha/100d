@@ -1,8 +1,8 @@
 {
     "env": {
-        "DB_HOST": "@db-host",
-        "DB_USER": "@db-user",
-        "DB_PASSWORD": "@db-password",
-        "DB_DB": "@db-db"
+        "DB_HOST": "@100d-db-host",
+        "DB_USER": "@100d-db-user",
+        "DB_PASSWORD": "@100d-db-password",
+        "DB_DB": "@100d-db-db"
     }
 }
