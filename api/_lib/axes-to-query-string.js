@@ -5,7 +5,7 @@ function axesToQueryString(axes) {
     const modifiedAxesArray = axesArray.filter(([key, val]) => val !== '0');
     const modifiedAxes = Object.fromEntries(modifiedAxesArray);
 
-    return qs.stringify(modifiedAxes);
+    return `/?${qs.stringify(modifiedAxes)}`;
 }
 
 module.exports = axesToQueryString;

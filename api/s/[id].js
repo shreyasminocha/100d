@@ -15,7 +15,7 @@ async function getUrl(request, response) {
 
     console.log(data.path);
 
-    response.send(`/?${data.path}`);
+    response.send(data.path);
 }
 
 module.exports = getUrl;
