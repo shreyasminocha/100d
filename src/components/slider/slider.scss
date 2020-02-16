@@ -10,7 +10,7 @@ label {
 datalist {
     display: block;
     position: relative;
-    top: 1.2em;
+    height: 0;
 }
 
 datalist option {
@@ -18,19 +18,18 @@ datalist option {
     font-size: small;
     display: inline-block;
     position: relative;
-    top: -17px;
-    padding: 0 ($track-width / 2);
+    margin: 0 ($track-width / 2);
     width: 15em;
 }
 
 datalist option:nth-child(1) {
     text-align: right;
-    padding-left: 0;
+    margin-left: 0;
 }
 
 datalist option:nth-child(2) {
     text-align: left;
-    padding-right: 0;
+    margin-right: 0;
 }
 
 @media all and (max-width: 675px) {
@@ -51,7 +50,8 @@ datalist option:nth-child(2) {
         position: initial;
         margin-bottom: 0.75em;
         width: 100%;
-        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     datalist option:nth-child(1)::before,
