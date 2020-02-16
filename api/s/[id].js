@@ -1,12 +1,21 @@
-const redis = require('redis');
-const {promisify} = require('util');
-
-const client = redis.createClient({url: process.env.DB_URL});
-const get = promisify(client.get).bind(client);
+const knex = require('knex')({
+    client: 'mysql',
+    connection: {
+        host: process.env.DB_HOST,
+        user: process.env.DB_USER,
+        password: process.env.DB_PASSWORD,
+        database: process.env.DB_DB
+    }
+});
 
 async function getUrl(request, response) {
-    const queryString = await get(request.query.id);
-    response.send(`/?${queryString}`);
+    const [data] = await knex('short')
+        .select('path')
+        .where('id', request.query.id);
+
+    console.log(data.path);
+
+    response.send(`/?${data.path}`);
 }
 
 module.exports = getUrl;

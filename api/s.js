@@ -1,16 +1,24 @@
 const axesToQueryString = require('./_lib/axes-to-query-string');
-const redis = require('redis');
-const {promisify} = require('util');
 const shortId = require('shortid');
 
-const client = redis.createClient({url: process.env.DB_URL});
-const set = promisify(client.set).bind(client);
+const knex = require('knex')({
+    client: 'mysql',
+    connection: {
+        host: process.env.DB_HOST,
+        user: process.env.DB_USER,
+        password: process.env.DB_PASSWORD,
+        database: process.env.DB_DB
+    }
+});
 
 async function shorten(request, response) {
     const queryString = axesToQueryString(request.body);
     const id = shortId.generate();
 
-    await set(id, queryString);
+    await knex('short').insert({
+        id: id,
+        path: queryString
+    });
 
     response.send(`/s/${id}`);
 }

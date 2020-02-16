@@ -24,12 +24,13 @@
     "gatsby-plugin-mdx": "^1.0.70",
     "gatsby-plugin-sass": "^2.1.28",
     "gatsby-react-router-scroll": "^2.1.21",
+    "knex": "^0.20.9",
+    "mysql": "^2.18.1",
     "node-sass": "^4.13.1",
     "query-string": "^6.10.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-jss": "^10.0.4",
-    "redis": "^2.8.0",
     "shortid": "^2.2.15"
   },
   "devDependencies": {
