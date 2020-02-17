@@ -79,3 +79,9 @@ footer {
 code {
     font-size: 120%;
 }
+
+@media print {
+    .controls, footer {
+        display: none;
+    }
+}
