@@ -75,3 +75,7 @@ ul li:last-child {
 footer {
     font-size: small;
 }
+
+code {
+    font-size: 120%;
+}
