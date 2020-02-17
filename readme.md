@@ -4,7 +4,7 @@
 
 A web-app full of sliders to precisely represent one's political ideology.
 
-This is based on [Jreg](//invidio.us/channel/UCGSGPehp0RWfca-kENgBJ9Q)'s [_The 100-dimensional political model_](//invidio.us/watch?v=UuopBeaUN24). This is also a near-replica of [u/DontDoMarmalade](//www.reddit.com/user/DontDoMarmalade)'s [axis chart](//www.reddit.com/r/Jreg/comments/djd0qx/i_made_an_actual_axis_chart_for_the_100) based on the video, except interactive.
+This is based on [Jreg](//youtube.com/channel/UCGSGPehp0RWfca-kENgBJ9Q)'s [_The 100-dimensional political model_](//youtube.com/watch?v=UuopBeaUN24). This is also a near-replica of [u/DontDoMarmalade](//www.reddit.com/user/DontDoMarmalade)'s [axis chart](//www.reddit.com/r/Jreg/comments/djd0qx/i_made_an_actual_axis_chart_for_the_100) based on the video, except interactive.
 
 > Inferior political tests.
 >
