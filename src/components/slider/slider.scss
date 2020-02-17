@@ -20,6 +20,7 @@ datalist option {
     position: relative;
     margin: 0 ($track-width / 2);
     width: 15em;
+    padding: 0;
 }
 
 datalist option:nth-child(1) {
@@ -41,6 +42,7 @@ datalist option:nth-child(2) {
         display: block;
         position: initial;
         margin-bottom: 1em;
+        height: initial;
     }
 
     datalist option {
