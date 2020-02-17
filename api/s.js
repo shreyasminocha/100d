@@ -20,7 +20,8 @@ async function shorten(request, response) {
         path: queryString
     });
 
-    response.send(`/s/${id}`);
+    const host = request.headers.host || 'https://100d.now.sh';
+    response.send(`${host}/s/${id}`);
 }
 
 module.exports = shorten;
