@@ -9,13 +9,19 @@ const knex = require('knex')({
 });
 
 async function getUrl(request, response) {
-    const [data] = await knex('short')
+    const records = await knex('short')
         .select('path')
         .where('id', request.query.id);
 
-    console.log(data.path);
+    if (records.length !== 1) {
+        response.writeHead(404);
+        response.end();
+        return;
+    }
 
-    response.send(data.path);
+    const [record] = records;
+    response.writeHead(302, {location: record.path});
+    response.end();
 }
 
 module.exports = getUrl;

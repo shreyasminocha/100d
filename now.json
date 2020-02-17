@@ -4,5 +4,8 @@
         "DB_USER": "@100d-db-user",
         "DB_PASSWORD": "@100d-db-password",
         "DB_DB": "@100d-db-db"
-    }
+    },
+    "rewrites": [
+        { "source": "/s/(.*)", "destination": "/api/s/$1" }
+    ]
 }

@@ -5,10 +5,6 @@ module.exports = {
     },
     plugins: [
         'gatsby-plugin-mdx',
-        {
-            resolve: 'gatsby-plugin-create-client-paths',
-            options: { prefixes: ['/s/*'] },
-        },
         'gatsby-plugin-sass',
         {
             resolve: 'gatsby-plugin-manifest',
