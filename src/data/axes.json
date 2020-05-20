@@ -236,7 +236,7 @@
     },
     {
         "name": "topia",
-        "minLabel": "eutopia", "maxLabel": "dystopia",
+        "minLabel": "utopia", "maxLabel": "dystopia",
         "minColor": "#27b800", "maxColor": "#022054"
     },
     {
