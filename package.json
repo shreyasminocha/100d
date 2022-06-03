@@ -20,7 +20,7 @@
     "gatsby": "^2.19.12",
     "gatsby-link": "^2.2.29",
     "gatsby-plugin-manifest": "2.4.6",
-    "gatsby-plugin-mdx": "^1.0.70",
+    "gatsby-plugin-mdx": "^2.14.1",
     "gatsby-plugin-sass": "^2.1.28",
     "gatsby-react-router-scroll": "^2.1.21",
     "knex": "^0.20.9",
